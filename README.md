@@ -1,6 +1,9 @@
 # FileCompressor-HuffManCoding
 
-<a href="https://saravana-filecompresser.netlify.app/" target="_blank" > Live-Demo </a>
+<a href="https://filecompresser-app-saravana.netlify.app/" target="_blank" > Live-Demo </a>
+
+```https://filecompresser-app-saravana.netlify.app/```    
+
 <h1 > Huffman Zipper</h1>
 <h3 > File compressor/decompressor, using a Javascript Huffman-coding algorithm implementation.</h3>
 <hr>
