@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard&display=swap");
+
+body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:1px solid black; */
+    font-family: "Coustard", serif;
+}
+
+/*  Navbar section */
+nav {
+    width: 100vw;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+/*  "Made with ❤️...saravana " section */
+.author {
+    font-size: 1rem;
+    color: black;
+}
+
+.author a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 0.3rem;
+    font-size: inherit;
+}
+/* project Icon section */
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    filter: invert(100%) sepia(0%) saturate(7430%) hue-rotate(27deg) brightness(120%) contrast(114%);
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+
+/* output and Compression ration section */
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.output {
+    width: 48vw;
+    overflow-y: scroll;
+    text-align: center;
+    padding-top: 3rem;
+    /* margin: 0 auto; */
+}
+
+.process {
+    width: 48vw;
+    overflow-y: scroll;
+    text-align: center;
+    padding: 8rem;
+    /* border:1px solid black; */
+}
+
+.output-box{
+    /* border:1px solid black; */
+    height:auto;
+    width:100%;
+    text-align: justify;
+    padding: 1rem;
+    z-index: 5;
+}
+
+
+/*  Footer section */
+.button-container {
+    padding-top: 1rem;
+    overflow-y: hidden;
+    height: 15vh;
+    /* border:1px solid black; */
+    overflow-x: hidden;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.button-container input {
+    font-size: 1rem;
+    border: none;
+    /* border:1px solid black; */
+    cursor: pointer;
+}
+
+.process-buttons {
+    display: flex;
+    /* width: 50vw; */
+    justify-content: space-between;
+}
+
+.encode{
+    padding: 0.5rem;
+    background-color: rgb(61, 187, 61);
+    border: hidden;
+    color: white;
+    background-image: linear-gradient(to right,
+            #d31027 0%,
+            #ea384d 51%,
+            #d31027 100%);
+}
+
+.encode {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.encode:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.decode {
+    padding: 0.5rem;
+    background-color: rgb(61, 187, 61);
+    border: hidden;
+    color: white;
+    background-image: linear-gradient(to right,
+            #52c234 0%,
+            #061700 51%,
+            #52c234 100%);
+}
+
+.decode {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.decode:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:756px) {
+   nav{
+    font-size: 1rem;
+   }
+   *{
+       font-size: 1rem;
+       overflow-x: hidden;
+   }
+   .container{
+       display: block;
+   }
+   .output{
+       width:100vw;
+       height: 50%;
+       border-bottom: 2px solid rgb(106, 243, 243);
+       font-size:0.8rem;
+   }
+   .process{
+       width:100vw;
+       padding:0.8rem;
+       font-size:0.8rem;
+   }
+   .button-container{
+       display: block;
+       overflow-y: scroll;
+       height: auto;
+
+   }
+   .process-buttons{
+       margin-top:1rem;
+       display: block;
+   }
+   .encode{
+      padding:0.5rem;
+      font-size: 0.9rem;
+   }
+   .decode{
+       padding:0.5rem;
+       font-size: 0.9rem;
+   }
+}

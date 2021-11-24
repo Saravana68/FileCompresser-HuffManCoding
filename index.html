@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- MetaData about Project -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--  Linking Stylesheet -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="icon" href="./Src/Icon.svg.svg">
+
+    <!--  Linking Javascript Files -->
+    <script src="./JS/heap.js"></script>
+    <script src="./JS/huffman.js" type="module"></script>
+    <script src="./JS/script.js" type="module"></script>
+
+    <!-- Document Title -->
+    <title>File Zipper</title>
+  </head>
+
+  <body>
+    <!--  Navbar component -->
+    <nav>
+      <div class="icon-container">
+        <img class="img" src="./Src/file-archive-solid.svg" alt="" />File
+        zipper
+      </div>
+      <div class="author">
+        Made with ❤️ by
+        <a target="_blank" href="https://saravana68.github.io/#/">
+          saravanakumar
+        </a>
+      </div>
+    </nav>
+    <!-- End of Navbar component -->
+
+    <!-- output & CompressRatio component -->
+    <div class="container">
+      <div class="output" >
+        Tree representation displayed here! ✅ <br/> Please scroll down once file encoded
+        <div id="TreeArea" class="output-box"></div>
+      </div>
+      <div class="process" id="ProcessArea">
+        
+        Currently Zipper supports only '.txt' files! &nbsp; please ensure document format before Uploading. <br/>
+        Compression Status & Ratio displayed here! ✅
+         <div id="extrabits"> </div>
+      </div>
+    </div>
+    <!-- End of Output & compressRatio component -->
+
+    <!-- Footer Component -->
+    <div class="button-container">
+      <form
+        method="post"
+        enctype="multipart/form-data"
+        style="display: inline-block"
+      >
+        <input type="file" id="uploadedFile" />
+      </form>
+      <div class="process-buttons">
+        <button id="encode" class="encode">Encode ✅</button>
+        <button id="decode" class="decode">Decode ✅</button>
+      </div>
+    </div>
+    <!-- End of Footer Component -->
+  </body>
+</html>
