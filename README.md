@@ -1,18 +1,18 @@
-# FileCompressor-HuffManCoding
+<h1 align="center"> ZIPMOJ File Zipper | 2021  </h1>
 
-<a href="https://filecompresser-app-saravana.netlify.app/" target="_blank" > Live-Demo </a>
+### ✅ ABOUT
+![SARAVANA KUMAR (4)](https://user-images.githubusercontent.com/63772127/192761478-f11db81c-dea1-47e5-84b4-b50d0c13d1d0.jpg)
+- 💡 &nbsp; File compressor/decompressor, using a Javascript library &  Huffman-coding algorithm implementation.
 
-```https://filecompresser-app-saravana.netlify.app/```    
+API   :  ```https://filecompresser-app-saravana.netlify.app/```      &nbsp;  &nbsp; &nbsp;  
+<h3> <a href="https://filecompresser-app-saravana.netlify.app/"> Live Link </a> </h3>
 
-<h1 > Huffman Zipper</h1>
-<h3 > File compressor/decompressor, using a Javascript Huffman-coding algorithm implementation.</h3>
-<hr>
 
 ## Huffman Coding Algorithm Description
 
-Huffman's algorithm assumes that we're building a single tree from a group (or forest) of trees. 
+- 💡 &nbsp; Huffman's algorithm assumes that we're building a single tree from a group (or forest) of trees. 
 Initially, all the trees have a single node with a character and the character's weight. 
-Trees are combined by picking two trees, and making a new tree from the two trees. 
+- 💡 &nbsp; Trees are combined by picking two trees, and making a new tree from the two trees. 
 This decreases the number of trees by one at each step since two trees are combined into one tree.
 
 ### Algorithm Steps:
@@ -23,8 +23,9 @@ Repeat this step until there is only one tree.
 
 2. Choose two trees with the smallest weights, call these trees T1 and T2. Create a new tree whose root has a weight equal to the sum of the weights T1 + T2 and whose left subtree is T1 and whose right subtree is T2.
 
-3. The single tree left after the previous step is an optimal encoding tree.
+3. The single tree left after the previous step is an optimal encoding tree
 
+<hr>
 
 # Project Images 
 <hr>
